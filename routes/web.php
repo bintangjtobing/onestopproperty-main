@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/know-us', function () {
+    return Redirect::to('https://linktr.ee/onestopropertyid');
+});
 Route::get('/beriklan', function () {
     return Redirect::to('https://s.id/yukIklankan');
 });
