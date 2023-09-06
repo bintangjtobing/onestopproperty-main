@@ -206,9 +206,11 @@
                                                     stroke-width="4">
                                             </svg></span>.
                                     </h1>
+                                    <p>Jangkau lebih luas dan tepat sasaran calon pembeli yang potensial untuk listing
+                                        properti Anda.</p>
                                     <a href="/"
                                         class="button button-small button-light button-border border-color h-bg-color rounded-pill text-dark m-0">Lihat
-                                        Layanan <i class="bi-arrow-right me-0 ms-1"></i></a>
+                                        properti<i class="bi-arrow-right me-0 ms-1"></i></a>
                                 </div>
                                 <div class="col-lg-7">
                                     <img src="{!! asset('osp/sales-buyer.png') !!}" alt="Image">
@@ -224,7 +226,7 @@
                             style="background: linear-gradient( to bottom left, rgba(255, 224, 54, .3), rgba(216, 220, 232, .5) 70% );">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <h1 class="display-5 fw-bold lh-base mb-5">Jadilah bagian dari<span
+                                    <h1 class="display-5 fw-bold lh-base mb-5">Jadilah bagian dari <span
                                             class="circle-draw"><span>OneStopProperty</span><svg
                                                 xmlns="http://www.w3.org/2000/svg" width="510" height="119"
                                                 viewBox="0 0 510 119.584">
@@ -284,15 +286,15 @@
                 <div class="container py-lg-6 mw-md mt-5">
 
                     <div class="text-center mb-lg-6">
-                        <h2 class="mb-1 display-6 fw-bold">All the <span class="circle-draw"><span>features</span><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="510" height="119"
+                        <h2 class="mb-1 display-6 fw-bold">Kenalan dengan <span class="circle-draw"><span>tim
+                                    kami</span><svg xmlns="http://www.w3.org/2000/svg" width="510" height="119"
                                     viewBox="0 0 510 119">
                                     <path
                                         d="M98.269,102.723c191.518,50.4,433.149-14.254,403.627-69.23C469.212-.827,218,3,94,25.5S-30.549,100.9,109.5,115c138.587,5.83,313.427-3.644,362.5-34.5,30.5-19.177,82.988-57.915-47-74.937"
                                         transform="translate(-0.645 -3.32)" fill="none"
                                         stroke="var(--cnvs-themecolor)" stroke-linecap="round" stroke-width="4">
-                                </svg></span> you want</h2>
-                        <h4 class="fw-normal">Professionally orchestrate plug-and-play action items.</h4>
+                                </svg></span>
+                            dulu</h2>
                     </div>
 
                     <div class="clear"></div>
@@ -301,175 +303,32 @@
                         <div class="row gutter-custom justify-content-center" style="--custom-gutter: 80px;">
                             <div class="col-sm-6">
                                 <div class="card border-0">
-                                    <img src="{!! asset('landing-2/images/services/3.jpg') !!}" alt="card img" class="rounded-5 mb-3">
-                                    <div class="card-body">
-                                        <h2 class="text-transform-none fw-semibold h5 mb-3">Powerful PlugIns</h2>
-                                        <p class="mb-4">Powerful Layout with Responsive functionality that can be
-                                            adapted.</p>
-                                        <a href="#"
-                                            class="button button-small button-light button-border border-color h-bg-color rounded-pill text-dark m-0">Learn
-                                            More <i class="bi-arrow-right me-0 ms-1"></i></a>
-                                    </div>
+                                    <img src="https://ospcairns.au/assets/images/photos/why-us.png" alt="card img"
+                                        class="rounded-5 mb-3">
                                 </div>
                             </div>
-
                             <div class="col-sm-6">
                                 <div class="card border-0">
-                                    <img src="{!! asset('landing-2/images/services/2.jpg') !!}" alt="card img" class="rounded-5 mb-3">
                                     <div class="card-body">
-                                        <h2 class="text-transform-none fw-semibold h5 mb-3">eCommerce Integrated</h2>
-                                        <p class="mb-4">Powerful Layout with Responsive functionality that can be
-                                            adapted.</p>
-                                        <a href="#"
-                                            class="button button-small button-light button-border border-color h-bg-color rounded-pill text-dark m-0">Learn
-                                            More <i class="bi-arrow-right me-0 ms-1"></i></a>
+                                        <h1 class="text-transform-none fw-semibold h1 mb-3">Why Us?</h1>
+                                        <p class="mb-4">Fokus kami adalah memberikan hasil terbaik untuk Anda - tepat
+                                            sasaran, harga yang tepat, dan pengalaman untuk mendapatkan hasil terbaik
+                                            untuk Anda.
+                                            <br><br>
+                                            Diskusi yang profesional, terbuka dan transparan, pelayanan kelas satu dan
+                                            selalu berupaya mendapatkan solusi terbaik. Nilai-nilai bisnis keluarga,
+                                            komitmen bisnis keluarga.
+                                            <br><br>
+
+                                            Kami telah menjadi penduduk lokal sejak tahun 1915, dan dari generasi ke
+                                            generasi… kami adalah agen lokal yang tepercaya, bereputasi, dan
+                                            berpengalaman.
+                                            <br><br>
+
+                                            Kita memperlakukan orang lain sebagaimana kita ingin mereka memperlakukan
+                                            kita.
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="card border-0">
-                                    <img src="{!! asset('landing-2/images/services/1.jpg') !!}" alt="card img" class="rounded-5 mb-3">
-                                    <div class="card-body">
-                                        <h2 class="text-transform-none fw-semibold h5 mb-3">Social Media Integrated
-                                        </h2>
-                                        <p class="mb-4">Powerful Layout with Responsive functionality that can be
-                                            adapted.</p>
-                                        <a href="#"
-                                            class="button button-small button-light button-border border-color h-bg-color rounded-pill text-dark m-0">Learn
-                                            More <i class="bi-arrow-right me-0 ms-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="card border-0">
-                                    <img src="{!! asset('landing-2/images/services/4.jpg') !!}" alt="card img" class="rounded-5 mb-3">
-                                    <div class="card-body">
-                                        <h2 class="text-transform-none fw-semibold h5 mb-3">Pre-made Niche Demos</h2>
-                                        <p class="mb-4">Powerful Layout with Responsive functionality that can be
-                                            adapted.</p>
-                                        <a href="#"
-                                            class="button button-small button-light button-border border-color h-bg-color rounded-pill text-dark m-0">Learn
-                                            More <i class="bi-arrow-right me-0 ms-1"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section sticky-top p-0 mb-0" style="overflow: visible;">
-                    <div class="row g-0">
-                        <div class="col-md-6 position-sticky m-0 vh-40 min-vh-md-100 top-0 z-1 overflow-hidden">
-                            <!-- Sticky Image Target -->
-                            <div id="list-example" class="w-100 h-100"
-                                style="background: url('landing-2/images/sticky-section/video-poster.jpg') no-repeat center center / cover;">
-                                <!-- List Item 1 -->
-                                <a class="list-group-item active" href="#list-item-1">
-                                    <div class="video-wrap no-placeholder">
-                                        <video id="slide-video" poster="{!! asset('landing-2/images/sticky-section/video-poster.jpg') !!}" preload="auto" loop
-                                            autoplay muted playsinline>
-                                            <source src='landing-2/images/sticky-section/video.mp4' type='video/mp4'>
-                                        </video>
-                                    </div>
-                                </a>
-
-                                <!-- List Item 2 -->
-                                <a class="list-group-item" href="#list-item-2">
-                                    <div class="fslider position-absolute h-100 w-100 top-0 start-0" data-loop="true"
-                                        data-pause="5000" data-animation="fade">
-                                        <div class="flexslider h-100">
-                                            <div class="slider-wrap">
-                                                <div class="slide"
-                                                    style="background: url('landing-2/images/sticky-section/2-1.jpg') center right; background-size: cover; height: 100% !important;">
-                                                </div>
-                                                <div class="slide"
-                                                    style="background: url('landing-2/images/sticky-section/2-2.jpg') center right; background-size: cover; height: 100% !important;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <i
-                                        class="bi-play-fill icon-stacked transform-ts bg-white h-bg-light rounded-circle text-dark h1 text-center ps-1 shadow z-9"></i>
-                                </a>
-
-                                <!-- List Item 3 -->
-                                <a class="list-group-item" href="#list-item-3"
-                                    style="background-image: url('landing-2/images/sticky-section/3.jpg');">
-                                    <i
-                                        class="bi-play-fill icon-stacked transform-ts bg-white h-bg-light rounded-circle text-dark h1 text-center ps-1 shadow"></i>
-                                </a>
-
-                                <!-- List Item 4 -->
-                                <a class="list-group-item" href="#list-item-4"
-                                    style="background-image: url('landing-2/images/sticky-section/1.jpg');">
-                                    <i
-                                        class="bi-play-fill icon-stacked transform-ts bg-white h-bg-light rounded-circle text-dark h1 text-center ps-1 shadow"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- List Item Content -->
-                        <div class="col-md-6 list-group-content" data-bs-spy="scroll" data-bs-target="#list-example"
-                            data-bs-offset="250">
-                            <!-- List Item Content 1 -->
-                            <div id="list-item-1" class="min-vh-md-100 py-5 py-md-6 bg-appstore dark">
-                                <i class="bi-award display-4 mb-4 color"></i>
-                                <h2 class="display-4 fw-normal font-secondary"><span class="nocolor op-05">Our main
-                                        Priority is of-course </span>Quality<span>.</span></h2>
-                                <p class="fs-5 fw-light op-07">Monotonectally extend go forward data for pandemic
-                                    deliverables. Proactively benchmark open-source human capital whereas cutting-edge
-                                    "outside the box".</p>
-                                <div>
-                                    <a href="#"
-                                        class="button button-small button-light button-border border-color h-bg-color rounded-pill h-text-dark color op-08 h-op-1 m-0">learn
-                                        more <i class="bi-arrow-right me-0 ms-1"></i></a>
-                                </div>
-                            </div>
-
-                            <!-- List Item Content 2 -->
-                            <div id="list-item-2" class="min-vh-md-100 py-5 py-md-6 bg-appstore dark">
-                                <i class="bi-tools display-4 mb-4 color"></i>
-                                <h2 class="display-4 fw-normal font-secondary"><span class="nocolor op-05">Easy</span>
-                                    customization<span>.</span></h2>
-                                <p class="fs-5 fw-light op-07">Monotonectally extend go forward data for pandemic
-                                    deliverables. Proactively benchmark open-source human capital whereas cutting-edge
-                                    "outside the box".</p>
-                                <div>
-                                    <a href="#"
-                                        class="button button-small button-light button-border border-color h-bg-color rounded-pill h-text-dark color op-08 h-op-1 m-0">learn
-                                        more <i class="bi-arrow-right me-0 ms-1"></i></a>
-                                </div>
-                            </div>
-
-                            <!-- List Item Content 3 -->
-                            <div id="list-item-3" class="min-vh-md-100 py-5 py-md-6 bg-appstore dark">
-                                <i class="bi-people display-4 mb-4 color"></i>
-                                <h2 class="display-4 fw-normal font-secondary"><span class="nocolor op-05">How we
-                                        connect with your </span> customers<span>.</span></h2>
-                                <p class="fs-5 fw-light op-07">Monotonectally extend go forward data for pandemic
-                                    deliverables. Proactively benchmark open-source human capital whereas cutting-edge
-                                    "outside the box".</p>
-                                <div>
-                                    <a href="#"
-                                        class="button button-small button-light button-border border-color h-bg-color rounded-pill h-text-dark color op-08 h-op-1 m-0">learn
-                                        more <i class="bi-arrow-right me-0 ms-1"></i></a>
-                                </div>
-                            </div>
-
-                            <!-- List Item Content 4 -->
-                            <div id="list-item-4" class="min-vh-md-100 py-5 py-md-6 bg-appstore dark">
-                                <i class="bi-emoji-smile display-4 mb-4 color"></i>
-                                <h2 class="display-4 fw-normal font-secondary"><span class="nocolor op-05">More than
-                                    </span>60K+<span class="nocolor op-05"> Happy Customers</span><span>.</span></h2>
-                                <p class="fs-5 fw-light op-07">Monotonectally extend go forward data for pandemic
-                                    deliverables. Proactively benchmark open-source human capital whereas cutting-edge
-                                    "outside the box".</p>
-                                <div>
-                                    <a href="#"
-                                        class="button button-small button-light button-border border-color h-bg-color rounded-pill h-text-dark color op-08 h-op-1 m-0">learn
-                                        more <i class="bi-arrow-right me-0 ms-1"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -479,15 +338,14 @@
                 <div class="section my-0 bg-transparent">
                     <div class="container py-lg-5">
                         <div class="text-center mb-lg-6">
-                            <h2 class="mb-1 display-5 fw-bold">Our Flexible <span
-                                    class="circle-draw"><span>Pricing</span><svg xmlns="http://www.w3.org/2000/svg"
+                            <h2 class="mb-1 display-5 fw-bold">Harga? Sangat <span
+                                    class="circle-draw"><span>Fleksible</span><svg xmlns="http://www.w3.org/2000/svg"
                                         width="510" height="119" viewBox="0 0 510 119">
                                         <path
                                             d="M98.269,102.723c191.518,50.4,433.149-14.254,403.627-69.23C469.212-.827,218,3,94,25.5S-30.549,100.9,109.5,115c138.587,5.83,313.427-3.644,362.5-34.5,30.5-19.177,82.988-57.915-47-74.937"
                                             transform="translate(-0.645 -3.32)" fill="none"
                                             stroke="var(--cnvs-themecolor)" stroke-linecap="round" stroke-width="4">
                                     </svg></span></h2>
-                            <h4 class="fw-normal">Professionally orchestrate plug-and-play action items.</h4>
                         </div>
                         <div class="clear mb-4"></div>
                         <div class="row justify-content-center gy-5" style="--bs-gutter-x: 60px">
@@ -496,75 +354,78 @@
                                     <div class="card-body text-center p-5 pt-0">
                                         <i class="bi-person h2 m-0 bg-white rounded-circle icon-stacked text-center"
                                             style="transform: translateY(-32px);"></i>
-                                        <h2 class="text-transform-none fw-bold fs-2 mb-0">Standard</h2>
-                                        <p class="">For individuals and small projects.</p>
+                                        <h2 class="text-transform-none fw-bold fs-2 mb-0">Termurah</h2>
+                                        <p class="">Untuk individual</p>
                                         <div
                                             class="bg-white p-2 d-flex justify-content-center align-items-center rounded text-start">
-                                            <h2 class="mb-0 display-3 font-secondary">$11</h2>
+                                            <h3 class="mb-0 display-3 font-secondary">Rp23.5K</h3>
                                             <div class="ms-3">
-                                                <div class="mb-0 h6 fw-semibold lh-base">per month</div>
-                                                <small class="mb-0 op-08 lh-base">with Lifetime free Updates</small>
+                                                <div class="mb-0 h6 fw-semibold lh-base">per hari</div>
+                                                <small class="mb-0 op-08 lh-base" style="font-size: 12px;">dengan
+                                                    detail penargetan
+                                                    terbaru.</small>
                                             </div>
                                         </div>
-                                        <div class="small op-07 mt-2">Or $110 per year</div>
+                                        <div class="small op-07 mt-2">atau Rp705.000 per bulan</div>
                                         <div
                                             class="text-start my-5 d-flex flex-column justify-content-center align-items-center text-start">
                                             <div>
                                                 <h4 class="mb-3 h6 fw-medium"><i
-                                                        class="bi-check-circle-fill me-2"></i> Use free 30 Days with
-                                                    pay</h4>
-                                                <h4 class="mb-3 h6 fw-medium"><i
-                                                        class="bi-check-circle-fill me-2"></i> Use it from anywhere
+                                                        class="bi-check-circle-fill me-2"></i> Estimasi jangkauan: 150
+                                                    -
+                                                    500
+                                                    per hari
                                                 </h4>
                                                 <h4 class="mb-3 h6 fw-medium"><i
-                                                        class="bi-check-circle-fill me-2"></i> All devices except
-                                                    mobile</h4>
-                                                <h4 class="h6 fw-medium"><i class="bi-check-circle-fill me-2"></i> For
-                                                    individual person only</h4>
+                                                        class="bi-check-circle-fill me-2"></i> Umur target: 35 - 55
+                                                    tahun</h4>
+                                                <h4 class="h6 fw-medium"><i class="bi-check-circle-fill me-2"></i>
+                                                    Lokasi target: 4 wilayah Indonesia & 2 <i>abroad</i></h4>
                                             </div>
                                         </div>
                                         <a href="#"
                                             class="button button-xlarge bg-white text-dark px-5 py-3 w-100 rounded-pill h-op-09 m-0"
-                                            style=" white-space: normal;">Start your 30-Day Free Trial</a>
-                                        <div class="small op-06 mt-2">No Credit-Card required upto 30days</div>
+                                            style=" white-space: normal;">Pesan Iklan</a>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-xl-5 col-lg-6">
-                                <div class="card border-0 rounded-6 pt-0"
-                                    style="background: linear-gradient( to bottom left, rgba(255, 224, 54, .3), rgba(216, 220, 232, .5) 70% );">
+                                <div class="card border-0 bg-color rounded-6 pt-0">
                                     <div class="card-body text-center p-5 pt-0">
-                                        <i class="bi-credit-card-2-back h2 m-0 rounded-circle icon-stacked text-center bg-white text-dark"
+                                        <i class="bi-person h2 m-0 bg-white rounded-circle icon-stacked text-center"
                                             style="transform: translateY(-32px);"></i>
-                                        <h2 class="text-transform-none fw-bold fs-2 mb-0">Business</h2>
-                                        <p>For team work or organizations.</p>
+                                        <h2 class="text-transform-none fw-bold fs-2 mb-0">Mahal?</h2>
+                                        <p class="">Untuk developer ataupun team</p>
                                         <div
-                                            class="bg-white p-3 d-flex justify-content-center align-items-center rounded text-start">
-                                            <h2 class="mb-0 h4 font-secondary">Standard features included, and...</h2>
+                                            class="bg-white p-2 d-flex justify-content-center align-items-center rounded text-start">
+                                            <h3 class="mb-0 display-3 font-secondary">Rp175K</h3>
+                                            <div class="ms-3">
+                                                <div class="mb-0 h6 fw-semibold lh-base">per hari</div>
+                                                <small class="mb-0 op-08 lh-base" style="font-size: 12px;">dengan
+                                                    detail penargetan
+                                                    terbaru.</small>
+                                            </div>
                                         </div>
-                                        <div class="small op-07 mt-2">Only Yearly Subscription accept</div>
+                                        <div class="small op-07 mt-2">atau Rp5.250.000 per bulan</div>
                                         <div
-                                            class="text-start my-5 py-3 d-flex flex-column justify-content-center align-items-center text-start">
+                                            class="text-start my-5 d-flex flex-column justify-content-center align-items-center text-start">
                                             <div>
                                                 <h4 class="mb-3 h6 fw-medium"><i
-                                                        class="bi-check-circle-fill text-dark me-2"></i> Use it from
-                                                    anywhere</h4>
+                                                        class="bi-check-circle-fill me-2"></i> Estimasi jangkauan: 800
+                                                    -
+                                                    2.500
+                                                    per hari
+                                                </h4>
                                                 <h4 class="mb-3 h6 fw-medium"><i
-                                                        class="bi-check-circle-fill text-dark me-2"></i> For all latest
-                                                    devices</h4>
-                                                <h4 class="mb-3 h6 fw-medium"><i
-                                                        class="bi-check-circle-fill text-dark me-2"></i> Unlimited
-                                                    users excess</h4>
-                                                <h4 class="h6 fw-medium"><i
-                                                        class="bi-check-circle-fill text-dark me-2"></i> Priority
-                                                    support available</h4>
+                                                        class="bi-check-circle-fill me-2"></i> Umur target: 35 - 55
+                                                    tahun</h4>
+                                                <h4 class="h6 fw-medium"><i class="bi-check-circle-fill me-2"></i>
+                                                    Lokasi target: 6 wilayah Indonesia & 4 <i>abroad</i></h4>
                                             </div>
                                         </div>
                                         <a href="#"
-                                            class="button button-xlarge button-dark h-bg-dark px-5 py-3 w-100 rounded-pill h-op-09 m-0">Contact
-                                            Us</a>
-                                        <div class="small op-06 mt-2">Cancel Anytime &amp; Secured Payment</div>
+                                            class="button button-xlarge bg-white text-dark px-5 py-3 w-100 rounded-pill h-op-09 m-0"
+                                            style=" white-space: normal;">Pesan Iklan</a>
                                     </div>
                                 </div>
                             </div>
@@ -659,61 +520,7 @@
                     </div>
                 </div>
 
-                <div class="section bg-color bg-opacity-10 py-0 mt-lg-4 mt-0">
-                    <div class="position-absolute top-0 end-0 w-100 h-100"
-                        style="background: url('landing-2/images/section-bg.svg') no-repeat right 70%; background-size: 100%;">
-                    </div>
-                    <div class="container">
-                        <div class="row align-items-end justify-content-center justify-content-lg-between">
 
-                            <div class="col-lg-5 py-lg-6 py-4">
-                                <h2 class="display-4 font-secondary">Available for Smartphones.</h2>
-                                <p>Progressively strategize just in time scenarios and compelling results. Intrinsicly
-                                    parallel task extensive systems whereas distinctive catalysts for scenarios and
-                                    compelling results change.</p>
-                                <div class="clear"></div>
-                                <div class="d-flex mt-4">
-                                    <div class="d-flex flex-column me-2">
-                                        <a href="#"
-                                            class="button button-xlarge rounded-pill button-dark d-flex align-items-center justify-content-center py-3 bg-dark h-op-09 m-0 mb-3">
-                                            <!-- <i class="fa-brands fa-app-store-ios fs-1 me-4" style="color:#48aef7"></i> -->
-                                            <img src="{!! asset('landing-2/images/appstore.svg') !!}" alt="Store Logo" width="45"
-                                                height="45">
-                                            <div class="d-flex flex-column ms-3">
-                                                <small class="fw-normal text-smaller lh-1 mb-2 op-06">Get it on
-                                                    the</small>
-                                                <span class="h5 mb-0 fw-semibold text-white lh-1">Apple Store</span>
-                                            </div>
-                                        </a>
-                                        <a href="#"
-                                            class="button button-xlarge rounded-pill button-dark d-flex align-items-center justify-content-center py-3 bg-dark h-op-09 m-0">
-                                            <img src="{!! asset('landing-2/images/playstore.svg') !!}" alt="Store Logo" width="45"
-                                                height="45">
-                                            <div class="d-flex flex-column ms-3">
-                                                <small class="fw-normal text-smaller lh-1 mb-2 op-06">Get it on
-                                                    the</small>
-                                                <span class="h5 mb-0 fw-semibold text-white lh-1">Google Store</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <img src="{!! asset('landing-2/images/qr.svg') !!}" alt="Image" height="170"
-                                        class="bg-white border p-2 ms-4">
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 col-md-8 mt-6 mt-sm-0">
-                                <div class="d-flex align-items-end">
-                                    <img src="{!! asset('landing-2/images/phone-2-half.png') !!}" class="fast" alt="Image"
-                                        style="width: 300px;">
-                                    <img src="{!! asset('landing-2/images/phone-1-half.png') !!}" class="fast" alt="Image"
-                                        style="width: 370px; transform: translateX(-100px);">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
 
                 <div class="section bg-transparent my-0 py-0 py-lg-5">
                     <div class="container text-center">
