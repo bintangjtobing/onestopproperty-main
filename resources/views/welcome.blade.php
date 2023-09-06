@@ -120,7 +120,6 @@
         <div class="position-absolute vh-100 vw-100 top-0 start-0 overflow-hidden">
             <img src="{!! asset('landing-2/images/hero-bg.svg') !!}" alt="" class="hero-bg">
         </div>
-
         <!-- Header
   ============================================= -->
         <header id="header" class="border-bottom-0 no-sticky transparent-header header-custom-size">
@@ -139,7 +138,7 @@
 
                             <!-- Top Search
        ============================================= -->
-                            <a href="#"
+                            <a href="https://s.id/yukIklankan" target="_blank"
                                 class="button bg-white rounded-pill text-dark h-shadow-sm box-shadow">Iklankan sekarang
                                 yuk?
                                 <i class="bi-arrow-right me-0 ms-1"></i></a>
@@ -160,16 +159,16 @@
                                 <li class="menu-item"><a class="menu-link" href="/">
                                         <div>Tentang Kami</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="/">
+                                <li class="menu-item"><a class="menu-link" href="#FAQ">
                                         <div>Cara Iklan</div>
                                     </a></li>
                                 <li class="menu-item"><a class="menu-link" href="/">
                                         <div>Layanan</div>
                                     </a></li>
                                 <li class="menu-item"><a class="menu-link" href="/">
-                                        <div>Testimoni</div>
+                                        <div>Properti</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="/">
+                                <li class="menu-item"><a class="menu-link" href="#FAQ">
                                         <div>FAQ</div>
                                     </a></li>
                                 <li class="menu-item"><a class="menu-link" href="/">
@@ -310,7 +309,17 @@
                             <div class="col-sm-6">
                                 <div class="card border-0">
                                     <div class="card-body">
-                                        <h1 class="text-transform-none fw-semibold h1 mb-3">Why Us?</h1>
+                                        <h1 class="text-transform-none fw-semibold h1 mb-3">Harus di
+                                            <span class="circle-draw"><span>OneStopProperty?</span><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="510" height="119"
+                                                    viewBox="0 0 510 119">
+                                                    <path
+                                                        d="M98.269,102.723c191.518,50.4,433.149-14.254,403.627-69.23C469.212-.827,218,3,94,25.5S-30.549,100.9,109.5,115c138.587,5.83,313.427-3.644,362.5-34.5,30.5-19.177,82.988-57.915-47-74.937"
+                                                        transform="translate(-0.645 -3.32)" fill="none"
+                                                        stroke="var(--cnvs-themecolor)" stroke-linecap="round"
+                                                        stroke-width="4">
+                                                </svg></span>
+                                        </h1>
                                         <p class="mb-4">Fokus kami adalah memberikan hasil terbaik untuk Anda - tepat
                                             sasaran, harga yang tepat, dan pengalaman untuk mendapatkan hasil terbaik
                                             untuk Anda.
@@ -336,7 +345,7 @@
                 </div>
 
                 <div class="section my-0 bg-transparent">
-                    <div class="container py-lg-5">
+                    <div class="container py-lg-3">
                         <div class="text-center mb-lg-6">
                             <h2 class="mb-1 display-5 fw-bold">Harga? Sangat <span
                                     class="circle-draw"><span>Fleksible</span><svg xmlns="http://www.w3.org/2000/svg"
@@ -383,7 +392,7 @@
                                                     Lokasi target: 4 wilayah Indonesia & 2 <i>abroad</i></h4>
                                             </div>
                                         </div>
-                                        <a href="#"
+                                        <a href="https://s.id/yukIklankan" target="_blank"
                                             class="button button-xlarge bg-white text-dark px-5 py-3 w-100 rounded-pill h-op-09 m-0"
                                             style=" white-space: normal;">Pesan Iklan</a>
                                     </div>
@@ -423,96 +432,213 @@
                                                     Lokasi target: 6 wilayah Indonesia & 4 <i>abroad</i></h4>
                                             </div>
                                         </div>
-                                        <a href="#"
+                                        <a href="https://s.id/yukIklankan" target="_blank"
                                             class="button button-xlarge bg-white text-dark px-5 py-3 w-100 rounded-pill h-op-09 m-0"
                                             style=" white-space: normal;">Pesan Iklan</a>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-9 mt-lg-6">
-                                <h2 class="mb-5 display-6 fw-bold">Pricing FAQs</h2>
-                                <div class="px-lg-6 p-5 rounded"
-                                    style="background: linear-gradient( to bottom left, rgba(255, 224, 54, .15), rgba(216, 220, 232, .3) 70% );">
-                                    <div class="toggle toggle-lg py-4 border-bottom mb-0">
-                                        <div class="toggle-header align-items-center">
-                                            <div class="toggle-title fw-semibold">
-                                                How will I get my Project after Subscribed?
+                            <div class="col-lg-9 mt-lg-6" id="FAQ">
+                                <h2 class="mb-5 display-6 fw-bold">FAQs (Frequently Asked Questions)</h2>
+                                <div class="row">
+                                    <div class="col-lg-6 mt-lg-2">
+                                        <div class="px-lg-6 p-5 rounded"
+                                            style="background: linear-gradient( to bottom left, rgba(255, 224, 54, .15), rgba(216, 220, 232, .3) 70% );">
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Apa itu OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">Agensi marketing properti
+                                                    OneStopProperty
+                                                    adalah perusahaan yang membantu mengiklankan properti pemilik
+                                                    properti/marketing properti untuk menjual atau menyewakan properti
+                                                    mereka.
+                                                    Agensi ini menyediakan berbagai layanan, seperti pemasaran properti
+                                                    melalui
+                                                    periklanan, dan aset.
+                                                </div>
                                             </div>
-                                            <div class="toggle-icon">
-                                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
+
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Apa keuntungan menggunakan layanan OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    Ada beberapa keuntungan menggunakan agensi marketing properti,
+                                                    antara lain:
+                                                    <br>
+                                                    <ol>
+                                                        <li>Menjual atau menyewakan properti dengan lebih cepat dan
+                                                            mudah.</li>
+                                                        <li>Mendapatkan harga yang lebih baik.</li>
+                                                        <li>Mempermudah proses transaksi properti.</li>
+                                                    </ol>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="toggle-content fs-6">Competently myocardinate sticky technology
-                                            through competitive testing procedures. Progressively engineer customer
-                                            directed e-services before frictionless scenarios. Objectively strategize
-                                            next-generation web services for professional catalysts for change. Quickly
-                                            productize clicks-and-mortar schemas for collaborative e-business.
-                                            Dynamically customize user friendly leadership skills and interactive
-                                            e-services. Objectively actualize virtual imperatives vis-a-vis enabled.
+
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Berapa biaya menggunakan periklanan OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">Biaya periklanan menggunakan
+                                                    OneStopProperty
+                                                    bervariasi tergantung pada pemilik properti/marketing properti,
+                                                    dimulai dari
+                                                    harga Rp.23.500 /hari nya hingga ke harga Rp.175.000 /hari dengan
+                                                    <i>tim
+                                                        research</i> yang memiliki pasar target yang terarah dan tepat
+                                                    sasaran.
+                                                </div>
+                                            </div>
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Apa saja yang perlu disiapkan untuk menggunakan jasa layanan
+                                                        OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    Beberapa dokumen yang perlu disiapkan untuk menggunakan agensi
+                                                    marketing
+                                                    properti:
+
+                                                    <ol>
+                                                        <li>Sertifikat kepemilikan properti.</li>
+                                                        <li>Sertifikat tanah.</li>
+                                                        <li>Izin mendirikan bangunan (IMB).</li>
+                                                        <li>Surat keterangan bebas banjir.</li>
+                                                        <li>Surat keterangan bebas sengketa.</li>
+                                                        <li>Gambar detail dan jelas dari properti</li>
+                                                        <li>Kontak detail pemilik/marketing properti</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Metode pembayaran apa saja yang tersedia di OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    OVO, Bank Transfer BCA, dan Dana
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="toggle toggle-lg py-4 border-bottom mb-0">
-                                        <div class="toggle-header align-items-center">
-                                            <div class="toggle-title fw-semibold">
-                                                Can I cancel anytime my Subscription?
+                                    <div class="col-lg-6 mt-lg-2">
+                                        <div class="px-lg-6 p-5 rounded"
+                                            style="background: linear-gradient( to bottom left, rgba(255, 224, 54, .15), rgba(216, 220, 232, .3) 70% );">
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Bagaimana prosedur menggunakan layanan OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    <ol>
+                                                        <li>Daftar ke website melalui form yang tersedia di
+                                                            OneStopProperty</li>
+                                                        <li>Admin akan melakukan konfirmasi/verifikasi data melalui
+                                                            Telpon
+                                                            Seluler/Whatsapp</li>
+                                                        <li>Lakukan pembayaran melalui provider yang tersedia dengan
+                                                            menggunakan
+                                                            nomor invoice yang terkirim ke E-mail ataupun Whatsapp.</li>
+                                                        <li>OneStopProperty akan mengiklankan properti kamu.</li>
+                                                    </ol>
+                                                </div>
                                             </div>
-                                            <div class="toggle-icon">
-                                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Bagaimana mekanisme untuk melanjutkan langganan di
+                                                        OneStopProperty?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    Seminggu dan maksimal sehari sebelum masa berlangganan habis, kamu
+                                                    akan
+                                                    menerima reminder perpanjangan melalui email & Whatsapp yang
+                                                    terdaftar. Jika
+                                                    kamu ingin melanjutkan masa berlangganan, silakan melakukan transfer
+                                                    ke
+                                                    rekening / e-wallet Seakun dengan nominal yang diinformasikan.
+                                                </div>
+                                            </div>
+                                            <div class="toggle toggle-lg py-4 border-bottom mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Bagaimana bila ada kendala ketika proses pembayaran?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    Bila kamu mengalami kendala dalam melakukan proses pembayaran,
+                                                    seperti:
+                                                    tidak mendapat konfirmasi dan follow up. Mohon isi form pada <a
+                                                        href="#">link ini</a>. Kami akan segera menghubungi kamu
+                                                    maksimal
+                                                    dalam 1x24 jam.
+                                                </div>
+                                            </div>
+                                            <div class="toggle toggle-lg py-4 mb-0">
+                                                <div class="toggle-header align-items-center">
+                                                    <div class="toggle-title fw-semibold">
+                                                        Apa yang harus dilakukan bila layanan mengalami masalah?
+                                                    </div>
+                                                    <div class="toggle-icon">
+                                                        <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
+                                                        <i class="toggle-open bi bi-dash-circle fs-4"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="toggle-content fs-6">
+                                                    Bila akun kamu mengalami masalah, seperti: telah melakukan
+                                                    pembayaran namun
+                                                    akun berubah menjadi free kembali. Mohon isi form pada <a
+                                                        href="#">link ini</a>. Kami akan segera menghubungi kamu
+                                                    maksimal
+                                                    1x24 jam.
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="toggle-content fs-6">Competently myocardinate sticky technology
-                                            through competitive testing procedures. Progressively engineer customer
-                                            directed e-services before frictionless scenarios. Objectively strategize
-                                            next-generation web services for professional catalysts for change. Quickly
-                                            productize clicks-and-mortar schemas for collaborative e-business.
-                                            Dynamically customize user friendly leadership skills and interactive
-                                            e-services. Objectively actualize virtual imperatives vis-a-vis
-                                            enabled.<br><br>Voluptates doloribus quae nisi tempore necessitatibus
-                                            dolores ducimus enim libero eaque explicabo suscipit animi at quaerat
-                                            aliquid ex expedita perspiciatis? Saepe, aperiam, nam unde quas beatae vero
-                                            vitae nulla.</div>
-                                    </div>
-
-                                    <div class="toggle toggle-lg py-4 border-bottom mb-0">
-                                        <div class="toggle-header align-items-center">
-                                            <div class="toggle-title fw-semibold">
-                                                How does Business Plan work?
-                                            </div>
-                                            <div class="toggle-icon">
-                                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
-                                            </div>
-                                        </div>
-                                        <div class="toggle-content fs-6">Lorem ipsum dolor sit amet, consectetur
-                                            adipisicing elit. Assumenda, dolorum, vero ipsum molestiae minima odio quo
-                                            voluptate illum excepturi quam cum voluptates doloribus quae nisi tempore
-                                            necessitatibus dolores ducimus enim libero eaque explicabo suscipit animi at
-                                            quaerat aliquid ex expedita perspiciatis? Saepe, aperiam, nam unde quas
-                                            beatae vero vitae nulla.</div>
-                                    </div>
-
-                                    <div class="toggle toggle-lg py-4 mb-0">
-                                        <div class="toggle-header align-items-center">
-                                            <div class="toggle-title fw-semibold">
-                                                Is there any hidden charges?
-                                            </div>
-                                            <div class="toggle-icon">
-                                                <i class="toggle-closed bi bi-plus-circle fs-4 op-05"></i>
-                                                <i class="toggle-open bi bi-dash-circle fs-4"></i>
-                                            </div>
-                                        </div>
-                                        <div class="toggle-content fs-6">Compellingly morph virtual niche markets
-                                            vis-a-vis excellent paradigms. Assertively orchestrate quality deliverables
-                                            vis-a-vis cross-unit e-commerce. Proactively deploy fully tested paradigms
-                                            for cross-media content. Conveniently implement cross-media processes
-                                            whereas highly efficient opportunities. Objectively scale flexible
-                                            partnerships vis-a-vis end-to-end meta-services. <br><br>Conveniently
-                                            synergize front-end content rather than high-payoff users. Professionally
-                                            parallel.</div>
                                     </div>
                                 </div>
                             </div>
@@ -630,13 +756,11 @@
                                                             fill="#ff5e5f" opacity="0.96">
                                 </g>
                             </svg>
-                            Enjoy the OneStoProperty now
+                            Tunggu apa lagi? Buktikan dengan OneStopProperty
                         </h2>
-                        <p class="mw-xs mx-auto text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Excepturi molestiae sequi placeat facilis quis recusandae nisi nesciunt illo fuga in.</p>
-                        <a href="#"
-                            class="button button-xlarge px-5 rounded-pill text-dark bg-color h-op-09 mb-5">Create a
-                            Project <i class="bi-arrow-right me-0 ms-1"></i></a>
+                        <a href="https://s.id/yukIklankan" target="_blank"
+                            class="button button-xlarge px-5 rounded-pill text-dark bg-color h-op-09 mb-5">Ngiklan
+                            Sekarang? #kitaBantuIklanin <i class="bi-arrow-right me-0 ms-1"></i></a>
                     </div>
                 </div>
 
@@ -658,29 +782,30 @@
                         <div class="col-md-4">
                             <div class="widget">
 
-                                <img src="{!! asset('landing-2/images/logo.svg') !!}" alt="Image" class="footer-logo"
+                                <img src="{!! asset('osp/Asset1@3x.png') !!}" alt="Image" class="footer-logo"
                                     height="60">
 
-                                <p>We believe in Simple, Creative, Premium Quality &amp; Flexible Design Standards with.
+                                <p>Jangkau lebih luas dan tepat sasaran calon pembeli yang potensial untuk listing
+                                    properti Anda.
                                 </p>
 
                                 <div>
-                                    <a href="#"
+                                    <a href="/facebook"
                                         class="social-icon border-color h-border-transparent h-bg-facebook">
                                         <i class="fa-brands fa-facebook-f"></i>
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
 
-                                    <a href="#"
-                                        class="social-icon border-color h-border-transparent h-bg-delicious">
-                                        <i class="fa-brands fa-delicious"></i>
-                                        <i class="fa-brands fa-delicious"></i>
+                                    <a href="/instagram"
+                                        class="social-icon border-color h-border-transparent h-bg-instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-instagram"></i>
                                     </a>
 
-                                    <a href="#"
-                                        class="social-icon border-color h-border-transparent h-bg-paypal">
-                                        <i class="fa-brands fa-paypal"></i>
-                                        <i class="fa-brands fa-paypal"></i>
+                                    <a href="/linkedin"
+                                        class="social-icon border-color h-border-transparent h-bg-linkedin">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
                                     </a>
                                 </div>
 
@@ -689,13 +814,14 @@
                         <div class="col-6 col-md-2 ms-md-auto">
                             <div class="widget">
 
-                                <h4 class="">Product</h4>
+                                <h4 class="">Properti</h4>
 
                                 <ul class="widget-li-noicon widget_links ms-0">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Help & Support</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Purchase</a></li>
+                                    <li><a href="#">Residence</a></li>
+                                    <li><a href="#">Apartemen</a></li>
+                                    <li><a href="#">Ruko</a></li>
+                                    <li><a href="#">Rumah</a></li>
+                                    <li><a href="#">Tanah</a></li>
                                 </ul>
 
                             </div>
@@ -706,10 +832,9 @@
                                 <h4 class="">Terms</h4>
 
                                 <ul class="widget-li-noicon widget_links ms-0">
-                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Karir</a></li>
                                     <li><a href="#">Privacy &amp; Policy</a></li>
-                                    <li><a href="#">Licence</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Hubungi Kami</a></li>
                                 </ul>
 
                             </div>
@@ -723,7 +848,7 @@
                                 </div>
 
                                 <p class="mb-0 mt-4 mt-md-5 text-smaller op-06">Copyrights &copy; 2023 All Rights
-                                    Reserved by Canvas Inc.</p>
+                                    Reserved by OneStopProperty Management.</p>
 
                             </div>
                         </div>

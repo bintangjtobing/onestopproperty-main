@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/linkedin', function () {
+    return Redirect::to('https://linkedin.com/company/');
+});
+Route::get('/instagram', function () {
+    return Redirect::to('http://www.instagram.com/onestopproperties');
+});
+Route::get('/facebook', function () {
+    return Redirect::to('http://www.facebook.com/onestoproperty');
+});
+Route::get('/tiktok', function () {
+    return Redirect::to('https://www.tiktok.com/');
+});
+Route::get('/facebook-community', function () {
+    return Redirect::to('https://www.facebook.com/groups/');
+});
 Route::get('/', function () {
     return view('welcome');
 });
