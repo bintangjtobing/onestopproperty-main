@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/beriklan', function () {
+    return Redirect::to('https://s.id/yukIklankan');
+});
 Route::get('/linkedin', function () {
     return Redirect::to('https://linkedin.com/company/');
 });
