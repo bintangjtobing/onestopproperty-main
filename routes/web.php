@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/beriklan', function () {
     return Redirect::to('https://s.id/yukIklankan');
 });
+Route::get('/kerjasama-dengan-kami', function () {
+    return Redirect::to('https://s.id/kerjasamaDeveloperOneStopProperty');
+});
+Route::get('/sc/company-profile', function () {
+    return Redirect::to('/');
+});
 Route::get('/linkedin', function () {
     return Redirect::to('https://linkedin.com/company/');
 });
