@@ -118,7 +118,7 @@
     <div id="wrapper">
 
         <div class="position-absolute vh-100 vw-100 top-0 start-0 overflow-hidden">
-            <img src="{!! asset('landing-2/images/hero-bg.svg') !!}" alt="" class="hero-bg">
+            <img src="{!! asset('landing-2/images/hero-bg.svg') !!}" alt="onestoproperty " class="hero-bg">
         </div>
         <!-- Header
   ============================================= -->
@@ -130,8 +130,8 @@
                         <!-- Logo
       ============================================= -->
                         <div id="logo" class="me-lg-5">
-                            <a href="#"><img src="{!! asset('osp/Asset1@3x.png') !!}" alt="OneStoProperty Logo"
-                                    class="py-3"></a>
+                            <a href="#"><img src="{!! asset('osp/Asset1@3x.png') !!}"
+                                    alt="onestoproperty OneStoProperty Logo" class="py-3"></a>
                         </div><!-- #logo end -->
 
                         <div class="header-misc">
@@ -212,7 +212,7 @@
                                         properti<i class="bi-arrow-right me-0 ms-1"></i></a>
                                 </div>
                                 <div class="col-lg-7">
-                                    <img src="{!! asset('osp/sales-buyer.png') !!}" alt="Image">
+                                    <img src="{!! asset('osp/sales-buyer.png') !!}" alt="onestoproperty Image">
                                 </div>
                             </div>
                         </div>
@@ -262,15 +262,15 @@
                                 <div class="row justify-content-end">
                                     <div class="col-md-7">
                                         <div class="position-relative">
-                                            <img src="{!! asset('osp/sales-buyer.png') !!}" alt="Image"
+                                            <img src="{!! asset('osp/sales-buyer.png') !!}" alt="onestoproperty Image"
                                                 class="position-relative op-0">
-                                            <img src="{!! asset('landing-2/images/hero-iphone-2.png') !!}" alt="Image" width="220"
-                                                class="parallax position-absolute mb-5"
+                                            <img src="{!! asset('landing-2/images/hero-iphone-2.png') !!}" alt="onestoproperty Image"
+                                                width="220" class="parallax position-absolute mb-5"
                                                 style="right: 0; bottom: -50px; opacity: 0;"
                                                 data-200-start="transform: translate(0px, 0px); opacity: 0;"
                                                 data-top-bottom="transform: translate(-260px, -60px); opacity: 1;">
-                                            <img src="{!! asset('landing-2/images/hero-iphone.png') !!}" alt="Image" width="220"
-                                                class="parallax position-absolute mb-5"
+                                            <img src="{!! asset('landing-2/images/hero-iphone.png') !!}" alt="onestoproperty Image"
+                                                width="220" class="parallax position-absolute mb-5"
                                                 style="right: 0; bottom: -60px;"
                                                 data-0="transform: translate(0px, 0px) scale(1); bottom: -60px;"
                                                 data-top-bottom="transform: translate(-60px, 60px) scale(1.3); bottom: 63px;">
@@ -302,8 +302,8 @@
                         <div class="row gutter-custom justify-content-center" style="--custom-gutter: 80px;">
                             <div class="col-sm-6">
                                 <div class="card border-0">
-                                    <img src="https://ospcairns.au/assets/images/photos/why-us.png" alt="card img"
-                                        class="rounded-5 mb-3">
+                                    <img src="https://ospcairns.au/assets/images/photos/why-us.png"
+                                        alt="onestoproperty card img" class="rounded-5 mb-3">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -782,7 +782,7 @@
                         <div class="col-md-4">
                             <div class="widget">
 
-                                <img src="{!! asset('osp/Asset1@3x.png') !!}" alt="Image" class="footer-logo"
+                                <img src="{!! asset('osp/Asset1@3x.png') !!}" alt="onestoproperty Image" class="footer-logo"
                                     height="60">
 
                                 <p>Jangkau lebih luas dan tepat sasaran calon pembeli yang potensial untuk listing
