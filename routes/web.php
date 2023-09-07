@@ -41,5 +41,8 @@ Route::get('/facebook-community', function () {
     return Redirect::to('https://www.facebook.com/groups/');
 });
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
+});
+Route::get('/tentang', function () {
+    return view('home.tentang');
 });
