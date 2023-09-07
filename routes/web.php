@@ -46,3 +46,6 @@ Route::get('/', function () {
 Route::get('/tentang', function () {
     return view('home.tentang');
 });
+Route::get('/hubungi-kami', function () {
+    return view('home.contact');
+});

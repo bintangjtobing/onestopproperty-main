@@ -143,19 +143,19 @@
                         <nav class="primary-menu me-lg-auto">
 
                             <ul class="menu-container">
-                                <li class="menu-item"><a class="menu-link" href="/">
+                                <li class="menu-item"><a class="menu-link" href="/tentang">
                                         <div>Tentang Kami</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="#FAQ">
+                                <li class="menu-item"><a class="menu-link" href="/#FAQ">
                                         <div>Cara Iklan</div>
                                     </a></li>
-                                <li class="menu-item"><a class="menu-link" href="/">
+                                {{-- <li class="menu-item"><a class="menu-link" href="/">
                                         <div>Layanan</div>
                                     </a></li>
                                 <li class="menu-item"><a class="menu-link" href="/">
                                         <div>Properti</div>
-                                    </a></li>
-                                <li class="menu-item"><a class="menu-link" href="#FAQ">
+                                    </a></li> --}}
+                                <li class="menu-item"><a class="menu-link" href="/#FAQ">
                                         <div>FAQ</div>
                                     </a></li>
                                 <li class="menu-item"><a class="menu-link" href="/">
@@ -193,6 +193,11 @@
 
                                 <p>Jangkau lebih luas dan tepat sasaran calon pembeli yang potensial untuk listing
                                     properti Anda.
+                                </p>
+                                <p>
+                                    <b>Phone: </b> 0812 6284 5980 <br>
+                                    <b>E-mail: </b> info@onestoproperty.com <br>
+                                    <b>Office: </b> Jl Pasar 1 Bunga Asoka, <br>
                                 </p>
 
                                 <div>

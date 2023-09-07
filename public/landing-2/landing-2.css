@@ -143,7 +143,16 @@ body.dark,
 	right: auto;
 	bottom: auto !important;
 }
-
+.text-nowrap {
+	width: 600px;
+	position: relative;
+	z-index: 2;
+	background-color: #FFF;
+	transform: translateX(6%);
+	padding: 0 20px 10px;
+}
+.dotted-bg::before { background-image: radial-gradient(rgba(255, 255, 255, 0.2) 14%, transparent 14%); }
+.dotted-bg.dotted-bg-dark::before { background-image: radial-gradient(rgba(4, 4, 4, 0.2) 14%, transparent 14%); }
 #footer {
 	border-top: 1px solid var(--cnvs-themecolor);
 }
