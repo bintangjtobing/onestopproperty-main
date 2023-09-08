@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/know-us', function () {
     return Redirect::to('https://linktr.ee/onestopropertyid');
 });
+Route::get('/sc/panduan-foto', function () {
+    return Redirect::to('/osp/business/panduan-foto-osp2023.pdf');
+});
 Route::get('/beriklan', function () {
     return Redirect::to('https://s.id/yukIklankan');
 });
@@ -29,7 +32,7 @@ Route::get('/linkedin', function () {
     return Redirect::to('https://linkedin.com/company/');
 });
 Route::get('/instagram', function () {
-    return Redirect::to('http://www.instagram.com/onestopproperties');
+    return Redirect::to('http://www.instagram.com/onestoproperties');
 });
 Route::get('/facebook', function () {
     return Redirect::to('http://www.facebook.com/onestoproperty');
