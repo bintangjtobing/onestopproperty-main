@@ -52,6 +52,12 @@ Route::get('/tentang', function () {
 Route::get('/hubungi-kami', function () {
     return view('home.contact');
 });
+// Listing properties
+Route::prefix('/properti')->group(function () {
+    Route::get('/listing', function () {
+        return view('home.properties.listing');
+    })->name('properti-list');
+});
 
 // Dashboard
 Route::prefix('/v')->group(function () {

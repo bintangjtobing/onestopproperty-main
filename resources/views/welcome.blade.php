@@ -61,6 +61,8 @@
     <!-- Niche Demos -->
     <link rel="stylesheet" href="{!! asset('landing-2/landing-2.css') !!}">
 
+    {{-- listing properties --}}
+    @yield('css')
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{!! asset('css/custom.css') !!}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -124,7 +126,7 @@
                 <div class="container">
                     <div class="header-row">
                         <div id="logo" class="me-lg-5">
-                            <a href="#"><img src="{!! asset('osp/Asset1@3x.png') !!}"
+                            <a href="/"><img src="{!! asset('osp/Asset1@3x.png') !!}"
                                     alt="onestoproperty OneStoProperty Logo" class="py-3"></a>
                         </div>
                         <div class="header-misc">
@@ -290,7 +292,7 @@
             forceHeight: false
         });
     </script>
-
+    @yield('javascript')
 </body>
 
 </html>

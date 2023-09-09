@@ -2,7 +2,7 @@
 @section('title', '#kitaIklankan di')
 @section('content')
     <!-- Content
-                            ============================================= -->
+                                    ============================================= -->
     <section id="content" class="bg-transparent">
         <div class="content-wrap overflow-visible pb-0">
 
@@ -23,7 +23,7 @@
                                 </h1>
                                 <p>Jangkau lebih luas dan tepat sasaran calon pembeli yang potensial untuk listing
                                     properti Anda.</p>
-                                <a href="/"
+                                <a href="/properti/listing"
                                     class="button button-small button-light button-border border-color h-bg-color rounded-pill text-dark m-0">Lihat
                                     properti<i class="bi-arrow-right me-0 ms-1"></i></a>
                             </div>
