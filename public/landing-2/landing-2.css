@@ -4,7 +4,7 @@
 
 :root {
 	--cnvs-themecolor: #ffb802;
-	--cnvs-themecolor-rgb: 255, 184, 2;
+	--cnvs-themecolor-rgb: rgb(255, 184, 2);
 
 	--cnvs-primary-font: 'Inter', sans-serif;
 	--cnvs-secondary-font: 'DM Serif Display', serif;

@@ -16,17 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/know-us', function () {
     return Redirect::to('https://linktr.ee/onestopropertyid');
 });
-Route::get('/sc/panduan-foto', function () {
-    return Redirect::to('/osp/business/panduan-foto-osp2023.pdf');
-});
 Route::get('/beriklan', function () {
     return Redirect::to('https://s.id/yukIklankan');
 });
 Route::get('/kerjasama-dengan-kami', function () {
     return Redirect::to('https://s.id/kerjasamaDeveloperOneStopProperty');
-});
-Route::get('/sc/company-profile', function () {
-    return Redirect::to('/');
 });
 Route::get('/linkedin', function () {
     return Redirect::to('https://linkedin.com/company/');
@@ -51,6 +45,15 @@ Route::get('/tentang', function () {
 });
 Route::get('/hubungi-kami', function () {
     return view('home.contact');
+});
+// Source Business
+Route::prefix('/sc')->group(function () {
+    Route::get('/company-profile', function () {
+        return Redirect::to('/osp/business/compro-osp2023.pdf');
+    });
+    Route::get('/panduan-foto', function () {
+        return Redirect::to('/osp/business/panduan-foto-osp2023.pdf');
+    });
 });
 // Listing properties
 Route::prefix('/properti')->group(function () {

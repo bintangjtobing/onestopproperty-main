@@ -1,8 +1,19 @@
 @extends('welcome')
+@section('css')
+    <link rel="stylesheet" href="{!! asset('real-estate/css/font-icons.css') !!}">
+
+    <!-- Plugins/Components CSS -->
+    <link rel="stylesheet" href="{!! asset('css/components/bs-select.css') !!}">
+    <link rel="stylesheet" href="{!! asset('css/components/bs-switches.css') !!}">
+    <link rel="stylesheet" href="{!! asset('css/components/ion.rangeslider.css') !!}">
+
+    <!-- Niche Demos -->
+    <link rel="stylesheet" href="{!! asset('real-estate/real-estate.css') !!}">
+@endsection
 @section('title', '#kitaIklankan di')
 @section('content')
     <!-- Content
-                                    ============================================= -->
+                                                                                                                                                                                        ============================================= -->
     <section id="content" class="bg-transparent">
         <div class="content-wrap overflow-visible pb-0">
 
@@ -94,6 +105,374 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="container mt-5">
+
+                <div style="position: relative;">
+                    <div class="heading-block border-bottom-0">
+                        <h3>Properti yang dijual</h3>
+                    </div>
+
+                    <a href="#"
+                        class="button button-small button-rounded button-border button-border-thin fw-medium m-0"
+                        style="position: absolute; top: 7px; right: 0;">Check All</a>
+
+                    <div class="real-estate owl-carousel image-carousel carousel-widget mb-6" data-margin="10"
+                        data-nav="true" data-loop="true" data-pagi="false" data-items-xs="1" data-items-sm="1"
+                        data-items-md="2" data-items-lg="3" data-items-xl="3">
+
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/abhinaya/1.png') !!}" alt="Abhinaya">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.450Jt<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">Abhinaya</a>
+                                    </h3>
+                                    <span>Titi Kuning</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">3</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">3</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">50 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/global-house-residence/1.png') !!}" alt="Global House Residence">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.875Jt<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">Global House Residence</a>
+                                    </h3>
+                                    <span>Krakatau</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">4</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">4</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">64 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/king-manshion/1.png') !!}" alt="King Manshion">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.775Jt<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">King Manshion</a>
+                                    </h3>
+                                    <span>Johor</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">3</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">2</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">96 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/luckville-casite/1.png') !!}" alt="Luckville Casita">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.650Jt<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">Luckville Casita</a>
+                                    </h3>
+                                    <span>Setiabudi</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">3</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">2</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">90 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/monteverde-tower/1.png') !!}" alt="Verde Two - Monteverde Tower">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.15M<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">Monteverde Tower</a>
+                                    </h3>
+                                    <span>CBD Jakarta</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">3</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">3</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">230 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/pondok-indah-johor/1.png') !!}" alt="Pondok Indah Johor">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.820jt<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">Pondok Indah Johor</a>
+                                    </h3>
+                                    <span>Johor</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">NaN</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">NaN</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">120 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="oc-item">
+                            <div class="real-estate-item">
+                                <div class="real-estate-item-image">
+                                    <div class="badge bg-danger bg-color2">For Sale</div>
+                                    <a href="#">
+                                        <img src="{!! asset('osp/properties/rehan-tropical/1.png') !!}" alt="Rehan Tropical">
+                                    </a>
+                                    <div class="real-estate-item-price">
+                                        Rp.470Jt<span>Sales</span>
+                                    </div>
+                                    <div class="real-estate-item-info">
+                                        <a href="#"><i class="uil uil-images"></i></a>
+                                        <a href="#"><i class="bi-heart"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="real-estate-item-desc">
+                                    <h3 style="font-transform: lowercase;"><a href="#">Rehan Tropical</a>
+                                    </h3>
+                                    <span>Gaperta Ujung</span>
+
+                                    <a href="#" class="real-estate-item-link"><i class="bi-info-circle"></i></a>
+
+                                    <div class="line" style="margin-top: 15px; margin-bottom: 15px;"></div>
+
+                                    <div class="real-estate-item-features fw-medium font-primary">
+                                        <div class="row g-0">
+                                            <div class="col-lg-4 p-0">K. Tidur: <span class="color">NaN</span></div>
+                                            <div class="col-lg-4 p-0">K. Mandi: <span class="color">NaN</span></div>
+                                            <div class="col-lg-4 p-0">Area: <span class="color">120 sqm</span></div>
+                                            {{-- <div class="col-lg-4 p-0">Pool: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Internet: <span class="text-success"><i
+                                                        class="fa-solid fa-square-check"></i></span></div>
+                                            <div class="col-lg-4 p-0">Cleaning: <span class="text-danger"><i
+                                                        class="bi-dash-square-fill"></i></span></div> --}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row real-estate-properties">
+
+                    <div class="col-lg-7">
+                        <a href="#"
+                            style="background: url('{!! asset('real-estate/images/cities/4.jpg') !!}') no-repeat bottom center; background-size: cover;">
+                            <div class="vertical-middle dark text-center">
+                                <div class="heading-block m-0 border-0">
+                                    <h3 class="text-capitalize fw-medium">California</h3>
+                                    <span style="margin-top: 5px; font-size: 17px;">23 Properties</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-5">
+                        <a href="#"
+                            style="background: url('{!! asset('real-estate/images/cities/2.jpg') !!}') no-repeat center center; background-size: cover;">
+                            <div class="vertical-middle dark text-center">
+                                <div class="heading-block m-0 border-0">
+                                    <h3 class="text-capitalize fw-medium">New York</h3>
+                                    <span style="margin-top: 5px; font-size: 17px;">12 Properties</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <a href="#"
+                            style="background: url('{!! asset('real-estate/images/cities/3.jpg') !!}') no-repeat center center; background-size: cover;">
+                            <div class="vertical-middle dark text-center">
+                                <div class="heading-block m-0 border-0">
+                                    <h3 class="text-capitalize fw-medium">San Francisco</h3>
+                                    <span style="margin-top: 5px; font-size: 17px;">8 Properties</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"
+                            style="background: url('{!! asset('real-estate/images/cities/1.jpg') !!}') no-repeat center center; background-size: cover;">
+                            <div class="vertical-middle dark text-center">
+                                <div class="heading-block m-0 border-0">
+                                    <h3 class="text-capitalize fw-medium">Texas</h3>
+                                    <span style="margin-top: 5px; font-size: 17px;">31 Properties</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"
+                            style="background: url('{!! asset('real-estate/images/cities/5.jpg') !!}') no-repeat center center; background-size: cover;">
+                            <div class="vertical-middle dark text-center">
+                                <div class="heading-block m-0 border-0">
+                                    <h3 class="text-capitalize fw-medium">New Orleans</h3>
+                                    <span style="margin-top: 5px; font-size: 17px;">19 Properties</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
 
             <div class="container py-lg-6 mw-md mt-5">
@@ -469,11 +848,11 @@
                             viewBox="0 0 612.879 132.494">
                             <g transform="translate(-9.868 -173.609)">
                                 <path d="M523.081,297.591l28,6.513,1.574,14.21S522.624,297.508,523.081,297.591Z"
-                                    transform="translate(205.206 -190.859) rotate(20)" fill="#437ad4" opacity="0.96">
+                                    transform="translate(205.206 -190.859) rotate(20)" fill="#ffb802" opacity="0.96">
                                     <path d="M517.55,299.672l13.542,25.355-9.654,10.545S517.311,299.273,517.55,299.672Z"
-                                        transform="translate(206.812 -190.875) rotate(20)" fill="#437ad4" opacity="0.96">
+                                        transform="translate(206.812 -190.875) rotate(20)" fill="#ffb802" opacity="0.96">
                                         <path d="M518.385,283.755l14.694-6.054,5.27,5.892S518.152,283.865,518.385,283.755Z"
-                                            transform="translate(204.555 -185.345) rotate(20)" fill="#437ad4"
+                                            transform="translate(204.555 -185.345) rotate(20)" fill="#ffb802"
                                             opacity="0.96">
                                             <g transform="translate(29 -110.764)" opacity="0.735">
                                                 <path
@@ -576,4 +955,40 @@
 
         </div>
     </section><!-- #content end -->
+@endsection
+@section('javascript')
+    <script src="{!! asset('js/jquery.js') !!}"></script>
+    <script src="{!! asset('js/plugins.bootstrap.js') !!}" id="canvas-bootstrap-js"></script>
+    <!-- Bootstrap Select Plugin -->
+    <script src="{!! asset('js/components/bs-select.js') !!}"></script>
+
+    <!-- Bootstrap Switch Plugin -->
+    <script src="{!! asset('js/components/bs-switches.js') !!}"></script>
+
+    <!-- Range Slider Plugin -->
+    <script src="{!! asset('js/components/rangeslider.min.js') !!}"></script>
+
+    <script>
+        jQuery(document).ready(function() {
+            jQuery(".price-range-slider").ionRangeSlider({
+                type: "double",
+                prefix: "$",
+                min: 200,
+                max: 10000,
+                max_postfix: "+"
+            });
+
+            jQuery(".area-range-slider").ionRangeSlider({
+                type: "double",
+                min: 50,
+                max: 20000,
+                from: 50,
+                to: 20000,
+                postfix: " sqm.",
+                max_postfix: "+"
+            });
+
+            jQuery(".bt-switch").bootstrapSwitch();
+        });
+    </script>
 @endsection

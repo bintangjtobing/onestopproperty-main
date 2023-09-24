@@ -2,7 +2,7 @@
 @section('title', 'Tentang Kami')
 @section('content')
     <!-- Slider
-                                                                  ============================================= -->
+                                                                          ============================================= -->
     <section id="slider" class="slider-element dark min-vh-25 min-vh-md-50 include-header py-5">
         <div class="slider-inner">
 
@@ -24,7 +24,7 @@
     </section><!-- #slider end -->
 
     <!-- Content
-                                                                  ============================================= -->
+                                                                          ============================================= -->
     <section id="content">
         <div class="content-wrap">
 
@@ -37,6 +37,17 @@
                     </div>
 
                     <div class="col-md-7">
+                        <h3 class="lead fw-normal">
+                            One Stop Property adalah perusahaan jasa properti yang berkomitmen untuk menyediakan solusi
+                            terpadu bagi kebutuhan properti masyarakat. Kami menawarkan berbagai jasa properti yang
+                            disesuaikan dengan kebutuhan pelanggan, mulai dari jasa pengiklanan, pemasaran, hingga penjualan
+                            properti. Kami percaya bahwa dengan memberikan solusi terpadu, kami dapat membantu pelanggan
+                            untuk menemukan properti yangsesuai dengan kebutuhan dan anggaran mereka. Kami juga berkomitmen
+                            untuk memberikan layanan yang berkualitas tinggi dan terpercaya, sehingga pelanggan dapat merasa
+                            nyaman dan puas dalam menggunakan jasa kami.
+                        </h3>
+                        <div class="line my-5 border-width-5 border-f5"></div>
+
                         <h3 class="lead fw-normal">Di One Stop Property, kami selalu berupaya agar Anda mendapatkan hasil
                             terbaik. Itu karena kita hidup dan bernafas dalam satu etos mendasar:</h3>
                         <div class="line my-5 border-width-5 border-f5"></div>
